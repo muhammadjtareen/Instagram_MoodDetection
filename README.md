@@ -1,2 +1,4 @@
 # Instagram_MoodDetection
  Flask, OpenCV, Neural Network to create a web app that detects a user's emotions in their 5 most popular images
+
+This application is under development and utilizes many different libraries. The basic idea is to use Flask to serve a web application, where a user is prompted to enter a PUBLIC instagram username. By using instaloader (a python library), the 5 most popular images are received and then presented in a front-end html page. The end goal is to determine whether a face is present AND then detect the emotion of the user (one of the main categories: happy, upset, angry, neutral). This project is on-going so multiple commits will be made in the forseeable future.
