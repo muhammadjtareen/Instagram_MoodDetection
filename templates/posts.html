@@ -1,0 +1,19 @@
+{% extends "master.html" %}
+{% block title %}
+<h2>Instagram Mood Detection</h2>
+{% endblock %}
+
+
+{% block body %}
+<div class="row">
+    <div class="col-md-12">
+      <h4 class="mb-3">Instagram Username</h4>
+      {% for i in posts %}
+        <div class="col-md-12">
+            <iframe width="320" height="460" src="{{i}}/embed" frameborder="0"></iframe>
+        </div>
+      {% endfor %}
+
+    </div>
+</div>
+{% endblock %}
